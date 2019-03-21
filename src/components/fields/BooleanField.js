@@ -50,9 +50,12 @@ function BooleanField(props) {
     });
   }
 
+  console.log("IN THE LIB");
+
   return (
     <Widget
       options={{ ...options, enumOptions }}
+      uiSchema={uiSchema}
       schema={schema}
       id={idSchema && idSchema.$id}
       onChange={onChange}

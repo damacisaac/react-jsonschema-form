@@ -62,7 +62,7 @@ function DefaultObjectFieldTemplate(props) {
 class ObjectField extends Component {
   static defaultProps = {
     uiSchema: {},
-    formData: {},
+    formData: undefined,
     errorSchema: {},
     idSchema: {},
     required: false,
